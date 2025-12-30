@@ -5,7 +5,7 @@ import mediapipe as mp
 import queue
 import math
 import threading
-from HandDetector import HandDetectorQ
+from HandDetector import HandDetector
 from pycaw.pycaw import AudioUtilities,IAudioEndpointVolume
 from comtypes import CLSCTX_ALL
 
@@ -109,6 +109,7 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
 
 
